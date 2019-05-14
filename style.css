@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    display: inline-block;
+}
+
+section{
+    display: inline-block;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  #mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9000;
+    background-color: #000;
+    display: none;
+  }
+  
+  #boxes .window {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 440px;
+    height: 200px;
+    display: none;
+    z-index: 9999;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  #boxes #dialog {
+    width: 750px;
+    height: 300px;
+    padding: 10px;
+    background-color: gray;
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 15pt;
+  }
+  
+  #popupfoot {
+    font-size: 16pt;
+    position: absolute;
+    bottom: 0px;
+    width: 250px;
+    left: 250px;
+  }
+
+  h3{
+      text-align: center;
+  }
+
+  h1{
+      text-align: center;
+  }
